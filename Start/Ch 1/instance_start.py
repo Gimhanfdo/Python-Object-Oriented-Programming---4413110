@@ -5,9 +5,12 @@
 class Book:
     # the "init" function is called when the instance is
     # created and ready to be initialized
-    def __init__(self, title):
+    def __init__(self, title, author, pages, price):
         self.title = title
         # TODO: add properties
+        self.author = author
+        self.pages = pages
+        self.price = price
 
     # TODO: create instance methods
 
