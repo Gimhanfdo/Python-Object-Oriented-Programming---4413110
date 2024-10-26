@@ -8,8 +8,8 @@ class Book:
     self.title=title
 
 # TODO: create instances of the class
-book1 = Book("Harry Potter")
-book2 = Book("Game of Thrones")
+book1 = Book("War and Peace")
+book2 = Book("The Catcher in the Rye")
 
 # TODO: print the class and property
 print(book1)
